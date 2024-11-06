@@ -26,7 +26,7 @@ public class CatHouseTest extends TestCase {
         assertEquals(String.valueOf(1), catHouse.getNumberOfCats(), "The number of cats should be 1");
         assertEquals(String.valueOf(cat), catHouse.getCatById(1), "The cat with ID 1 should be 'Whiskers'");
     }
-
+//
     @Test
     public void testRemoveCatByObject() {
         // Given: A CatHouse with an added Cat
